@@ -32,7 +32,7 @@ app.use(session({
 
 // MongoDB connection
 mongoose.connect(
-  'mongodb+srv://dwaipayandutta25_db_user:G20nc1s90En81lAS@cluster0.ckpb8xp.mongodb.net/Registration',
+  'mongodb+srv://dwaipayandutta25_db_user:G20nc1s90En81lAS@cluster0.ckpb8xp.mongodb.net/Students',
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
 .then(() => console.log('✅ MongoDB connected'))
