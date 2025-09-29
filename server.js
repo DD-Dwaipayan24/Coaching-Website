@@ -32,7 +32,7 @@ app.use(session({
 
 // MongoDB connection
 mongoose.connect(
-  'mongodb://127.0.0.1:27017/StudentsRegistration', //When I will link with cluster here I will put the link of cluster
+  'mongodb+srv://dwaipayandutta25_db_user:G20nc1s90En81lAS@cluster0.ckpb8xp.mongodb.net/StudentsRegistration',
   { useNewUrlParser: true, useUnifiedTopology: true }
 )
 .then(() => console.log('✅ MongoDB connected'))
